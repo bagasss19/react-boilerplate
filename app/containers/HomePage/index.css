@@ -1,0 +1,10 @@
+.main {
+    position: absolute;
+    left: 300px;
+  } 
+
+.covid {
+    position: absolute;
+    top : 100px;
+    left : 750px;
+}
