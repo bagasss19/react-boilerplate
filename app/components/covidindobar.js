@@ -33,9 +33,9 @@ function Covidindobar() {
             });
     }, []);
     return (
-        <>
+        <div style={{marginLeft : "200px", width : "600px"}}>
             <HorizontalBar data={data} />
-        </>
+        </div>
     );
 }
 

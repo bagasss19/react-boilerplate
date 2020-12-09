@@ -20,10 +20,11 @@ export default function HomePage() {
       <h1 style={{marginLeft : "200px"}}>
         <FormattedMessage {...messages.header} />
       </h1>
-      <Covidwidget />
-      <Covidbar/>
-      <Covidindo/>
       <Dailycovid/>
+      <Covidwidget /><br></br>
+      <Covidbar/><br></br>
+      <Covidindo/><br></br>
+      
     </div>
   );
 }

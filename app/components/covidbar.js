@@ -33,14 +33,14 @@ function Covidbar() {
             });
     }, []);
     return (
-        <>
+        <div style={{marginLeft : "200px", width : "600px"}}>
             <Bar
                 data={data}
                 width={400}
                 height={300}
                 options={{ maintainAspectRatio: true }}
             />
-        </>
+        </div>
     );
 }
 
